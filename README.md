@@ -1,2 +1,2 @@
 https://gabdykalyk.io/rsschool-cv/cv
-https://your-github-account.github.io/rsschool-cv/
+https://gabdykalyk.github.io/rsschool-cv/

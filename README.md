@@ -1,1 +1,4 @@
-https://gabdykalyk.io/rsschool-cv/cv
+---
+permalink: /index.html
+---
+https://gabdykalyk.io/rsschool-cv/

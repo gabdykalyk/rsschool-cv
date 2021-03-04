@@ -21,3 +21,6 @@ I tend to write neat, clean code.
 - Adobe Photoshop, Figma
 - Working with WordPress, Bitrix, Tilda
 - Portfolio with Responsive Sites and Single Page Applications
+
+### English
+Level - C1

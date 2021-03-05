@@ -78,6 +78,7 @@ li {
 
 .about {
     margin-top: 50px;
+    min-height: 100vh;
 }
 
 .about__title {
@@ -91,4 +92,18 @@ li {
 .education {
     text-align: center;
     margin-top: 50px;
+}
+
+.education h2 {
+    color: #007FFF;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer h5 {
+    color: #007FFF;
 }

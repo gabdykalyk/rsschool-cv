@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: unset;
     text-decoration: none;
@@ -79,10 +83,16 @@ li {
 .about {
     margin-top: 50px;
     min-height: 100vh;
+    padding-top: 50px;
 }
 
 .about__title {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.about ul li {
+    margin-bottom: 10px;
 }
 
 li {
@@ -106,4 +116,12 @@ li {
 
 .footer h5 {
     color: #007FFF;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.education {
+    padding-top: 50px;
 }

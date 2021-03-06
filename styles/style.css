@@ -40,12 +40,15 @@ li {
     border-radius: 50%;
 }
 
-.nav__link:nth-child(2) {
-    margin-left: 73px;
+.nav__center {
+    display: flex;
+    justify-content: center;
 }
 
-.nav__link:nth-child(4) {
-    margin-left: 73px;
+.nav__left,
+.nav__right {
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
@@ -142,3 +145,13 @@ li {
     list-style: none;
 }
 
+@media (max-width: 768px) {
+    .nav__left,
+    .nav__right {
+        display: none;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+}

@@ -40,12 +40,15 @@ li {
     border-radius: 50%;
 }
 
-.nav__link:nth-child(2) {
-    margin-left: 73px;
+.nav__center {
+    display: flex;
+    justify-content: center;
 }
 
-.nav__link:nth-child(4) {
-    margin-left: 73px;
+.nav__left,
+.nav__right {
+    display: flex;
+    justify-content: space-between;
 }
 
 .title {
@@ -102,10 +105,16 @@ li {
 .education {
     text-align: center;
     margin-top: 50px;
+    font-weight: 500;
 }
 
-.education h2 {
+.education__title {
+    font-size: 2.5rem;
+}
+
+.education__item {
     color: #007FFF;
+    font-size: 1.5rem;
 }
 
 .footer {
@@ -114,14 +123,35 @@ li {
     padding-bottom: 50px;
 }
 
-.footer h5 {
-    color: #007FFF;
-}
-
 .main {
     padding-top: 50px;
 }
 
 .education {
     padding-top: 50px;
+}
+
+.footer__link {
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: all .2s linear;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .nav__left,
+    .nav__right {
+        display: none;
+    }
+
+    .nav {
+        justify-content: center;
+    }
 }
